@@ -196,6 +196,7 @@ body.fixed-nav {
   #mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown .dropdown-menu > .dropdown-item  {
     max-width: 300px;
   }
+
 }
 
 #mainNav.fixed-top .sidenav-toggler {
@@ -284,6 +285,7 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
 .content-wrapper {
   overflow-x: hidden;
   background: #F8F9F9;
+  position:relative;
 }
 
 @media (min-width: 992px) {
@@ -332,7 +334,6 @@ body.sidenav-toggled .navbar-sidenav .nav-item {
 body.sidenav-toggled .navbar-sidenav-tooltip.show {
   display: flex;
 }
-body.
 
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav .nav-link-collapse:after {
   color: #ECF0F1;
@@ -423,7 +424,7 @@ body.
 }
 
 .card-body-icon {
-  position: absolute;
+  position: center;
   z-index: 0;
   top: -25px;
   right: -25px;
@@ -434,7 +435,8 @@ body.
 }
 .arma{float: left;
 }
-.srvicio{float: center;
+.servicios
+{float: center;
 background:#f8f9fa;
  }
 
